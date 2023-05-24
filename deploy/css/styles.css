@@ -327,9 +327,17 @@ template {
 /* =============
     Base
 ============= */
+#navheader {
+  width: 100%;
+}
+
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+
 /* =============
     Buttons
 ============= */
@@ -357,6 +365,34 @@ textarea {
 /* =============
     Header
 ============= */
+header h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 24px;
+}
+header #sawheader {
+  margin: 10px 30px;
+}
+header #sawheader p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
 /* =============
     Footer
 ============= */
+footer div ul {
+  list-style: none;
+  display: flex;
+}
+
+#sawtype h2 {
+  text-align: center;
+}
+#sawtype div ul {
+  list-style: none;
+  text-align: center;
+}

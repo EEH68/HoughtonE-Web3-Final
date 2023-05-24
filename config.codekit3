@@ -97,9 +97,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/Assets\/Mobile_Nav_Logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/Mobile_Nav_Logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/Assets\/Nav_Image.jpg" : {
       "ft" : 16384,
-      "iS" : 262433,
+      "iS" : 3538613,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Assets\/Nav_Image.jpg",
@@ -109,6 +119,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/Assets\/Nav_Logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/Nav_Logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/Assets\/Tenon_Saw.jpg" : {
       "ft" : 16384,
@@ -135,6 +155,140 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/Customize\/Dovetail_Cherry.png" : {
+      "ft" : 32768,
+      "iS" : 25754,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Customize\/Dovetail_Cherry.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Customize\/Dovetail_Maple.png" : {
+      "ft" : 32768,
+      "iS" : 25334,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Customize\/Dovetail_Maple.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Customize\/Dovetail_NonTapered.png" : {
+      "ft" : 32768,
+      "iS" : 25962,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Customize\/Dovetail_NonTapered.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Customize\/Dovetail_Tapered.png" : {
+      "ft" : 32768,
+      "iS" : 25754,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Customize\/Dovetail_Tapered.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/global\/Nav_Image.jpg" : {
+      "ft" : 16384,
+      "iS" : 3538613,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/global\/Nav_Image.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Logos\/Footer_Logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Logos\/Footer_Logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Logos\/Mobile_Nav_Logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Logos\/Mobile_Nav_Logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Logos\/Nav_Logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Logos\/Nav_Logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Select_Saw\/Carcass_Saw.jpg" : {
+      "ft" : 16384,
+      "iS" : 78858,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Select_Saw\/Carcass_Saw.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Select_Saw\/Dovetail_Saw.jpg" : {
+      "ft" : 16384,
+      "iS" : 91488,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Select_Saw\/Dovetail_Saw.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Select_Saw\/Tenon_Saw.jpg" : {
+      "ft" : 16384,
+      "iS" : 75444,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Select_Saw\/Tenon_Saw.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -154,20 +308,36 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/about.kit" : {
+    "\/dev\/content\/blade.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/about.html",
+      "oAP" : "\/dev\/content\/blade.html",
       "oF" : 0
     },
-    "\/dev\/content\/hero.kit" : {
+    "\/dev\/content\/buttons.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/hero.html",
+      "oAP" : "\/dev\/content\/buttons.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/handle.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/handle.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/Selection.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/Selection.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -366,6 +536,66 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_blade.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_blade.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_buttons.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_buttons.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_handle.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_handle.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_selection.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_selection.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
