@@ -143,6 +143,22 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/checkout.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 0
+    },
+    "\/deploy\/confirm.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/confirm.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -308,36 +324,68 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/blade.kit" : {
+    "\/dev\/checkout.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 2
+    },
+    "\/dev\/confirm.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/confirm.html",
+      "oF" : 2
+    },
+    "\/dev\/content\/checkout\/description.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/blade.html",
+      "oAP" : "\/dev\/content\/checkout\/description.html",
       "oF" : 0
     },
-    "\/dev\/content\/buttons.kit" : {
+    "\/dev\/content\/checkout\/gallery.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/buttons.html",
+      "oAP" : "\/dev\/content\/checkout\/gallery.html",
       "oF" : 0
     },
-    "\/dev\/content\/handle.kit" : {
+    "\/dev\/content\/confirm\/thankyou.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/handle.html",
+      "oAP" : "\/dev\/content\/confirm\/thankyou.html",
       "oF" : 0
     },
-    "\/dev\/content\/Selection.kit" : {
+    "\/dev\/content\/product\/buttons.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/Selection.html",
+      "oAP" : "\/dev\/content\/product\/buttons.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product\/customization.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product\/customization.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product\/selection.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product\/selection.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -541,7 +589,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_blade.scss" : {
+    "\/dev\/scss\/sections\/checkout\/_description.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -550,13 +598,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_blade.css",
+      "oAP" : "\/dev\/scss\/sections\/checkout\/_description.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_buttons.scss" : {
+    "\/dev\/scss\/sections\/checkout\/_gallery.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -565,13 +613,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_buttons.css",
+      "oAP" : "\/dev\/scss\/sections\/checkout\/_gallery.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_handle.scss" : {
+    "\/dev\/scss\/sections\/confirm\/_thankyou.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -580,13 +628,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_handle.css",
+      "oAP" : "\/dev\/scss\/sections\/confirm\/_thankyou.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_selection.scss" : {
+    "\/dev\/scss\/sections\/product\/_buttons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -595,7 +643,37 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_selection.css",
+      "oAP" : "\/dev\/scss\/sections\/product\/_buttons.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/product\/_customization.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/product\/_customization.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/product\/_selection.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/product\/_selection.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

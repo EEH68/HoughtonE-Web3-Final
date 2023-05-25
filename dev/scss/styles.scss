@@ -19,7 +19,9 @@
 @import "layout/_footer";
 
 // Sections Styles
-@import "sections/selection";
-@import "sections/blade";
-@import "sections/handle";
-@import "sections/buttons";
+@import "sections/product/selection";
+@import "sections/product/customization";
+@import "sections/product/buttons";
+@import "sections/checkout/description";
+@import "sections/checkout/gallery";
+@import "sections/confirm/thankyou";
