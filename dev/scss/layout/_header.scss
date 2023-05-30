@@ -1,4 +1,11 @@
 /* =============
     Header
 ============= */
-
+nav{
+    // background-image: url(img/global/Nav_Image.jpg);
+    background-color: aqua;
+    div{
+       display: flex;
+       justify-content: center;
+    }
+}

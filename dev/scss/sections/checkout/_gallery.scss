@@ -1,0 +1,36 @@
+#title{
+    text-align: center;
+    // font-weight: 400;
+    h1{
+        font-size: 20px;
+        line-height: 34px;
+    }
+    h3{
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+
+#product{
+    // margin-left: 60px;
+    // margin-right: 60px;
+    div{
+        text-align: center;
+        ul{
+            justify-content: center;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            li{
+                // padding-right: 5px;
+                a{
+                    background-color: #9F9F9F;
+                    border-radius: 10px;
+                    padding: 12px;
+                    color: black;
+                }
+            }
+        }
+    }
+        
+}
