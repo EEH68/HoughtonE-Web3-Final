@@ -1,11 +1,12 @@
-#title{
+.title{
     text-align: center;
-    // font-weight: 400;
     h1{
         font-size: 20px;
         line-height: 34px;
+        font-weight: 400;
     }
     h3{
+        font-weight: 400;
         font-size: 15px;
         line-height: 18px;
     }
@@ -22,8 +23,10 @@
             display: flex;
             align-items: center;
             li{
-                // padding-right: 5px;
                 a{
+                    text-decoration: none;
+                    font-size: 12px;
+                    line-height: 15px;
                     background-color: #9F9F9F;
                     border-radius: 10px;
                     padding: 12px;

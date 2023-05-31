@@ -1,0 +1,45 @@
+#mainheader{
+    text-align: center;
+    h1{
+        font-weight: 400;
+        font-size: 30px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 17px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+#herogallery{
+    ul{
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-area: 
+        "g1 g1 g1 g1"
+        "g2 g2 g3 g3"
+        "g4 g4 g4 g4"
+        ". g5 g5 ."
+        }  
+
+        #g1{
+            grid-area: g1;
+        }
+        #g2{
+            grid-area: g2;
+        }
+        #g3{
+            grid-area: g3;
+        }
+        #g4{
+            grid-area: g4;
+        }
+        #g5{
+            grid-area: g5;
+        }
+}
+   
+
+    

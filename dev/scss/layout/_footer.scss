@@ -2,10 +2,25 @@
     Footer
 ============= */
 footer{
+    border-top: 1px solid #9F9F9F;
     div{
         ul{
             list-style: none;
             display: flex;
+            align-content: center;
+            gap: 10px;
+            li{
+                justify-content: center;
+                a{
+                    font-weight: 700;
+                    font-size: 8px;
+                    line-height: 10px;
+                }
+                img{
+                    width: 60px;
+                }
+                    
+            }
         }
     }
 }

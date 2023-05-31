@@ -2,10 +2,24 @@
     Header
 ============= */
 nav{
-    // background-image: url(img/global/Nav_Image.jpg);
-    background-color: aqua;
-    div{
-       display: flex;
-       justify-content: center;
+    background-image: url(../img/global/Nav_Image.jpg);
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        li{
+            img{
+                width: 200px;
+            }
+            i{
+                color: white;
+                font-size: 36px;
+                // margin-left: 40px;
+            }
+        }
     }
 }

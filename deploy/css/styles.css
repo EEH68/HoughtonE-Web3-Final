@@ -332,6 +332,10 @@ template {
   height: 109.38px;
 }
 
+.largeimage {
+  width: 100%;
+}
+
 /* =============
     Typography
 ============= */
@@ -367,19 +371,83 @@ textarea {
     Header
 ============= */
 nav {
-  background-color: aqua;
+  background-image: url(../img/global/Nav_Image.jpg);
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
 }
-nav div {
+nav ul {
+  list-style: none;
   display: flex;
+  align-items: center;
   justify-content: center;
+}
+nav ul li img {
+  width: 200px;
+}
+nav ul li i {
+  color: white;
+  font-size: 36px;
 }
 
 /* =============
     Footer
 ============= */
+footer {
+  border-top: 1px solid #9F9F9F;
+}
 footer div ul {
   list-style: none;
   display: flex;
+  align-content: center;
+  gap: 10px;
+}
+footer div ul li {
+  justify-content: center;
+}
+footer div ul li a {
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 10px;
+}
+footer div ul li img {
+  width: 60px;
+}
+
+#mainheader {
+  text-align: center;
+}
+#mainheader h1 {
+  font-weight: 400;
+  font-size: 30px;
+}
+#mainheader p {
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#herogallery ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-area: "g1 g1 g1 g1" "g2 g2 g3 g3" "g4 g4 g4 g4" ". g5 g5 .";
+}
+#herogallery #g1 {
+  grid-area: g1;
+}
+#herogallery #g2 {
+  grid-area: g2;
+}
+#herogallery #g3 {
+  grid-area: g3;
+}
+#herogallery #g4 {
+  grid-area: g4;
+}
+#herogallery #g5 {
+  grid-area: g5;
 }
 
 #description {
@@ -387,20 +455,41 @@ footer div ul {
   border-radius: 10px;
   margin-left: 60px;
   margin-right: 60px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
 }
 #description #top ul {
   list-style: none;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+#description #bottom {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+#description #bottom li {
+  padding-bottom: 10px;
 }
 
-#title {
+#back ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
   text-align: center;
 }
-#title h1 {
+.title h1 {
   font-size: 20px;
   line-height: 34px;
+  font-weight: 400;
 }
-#title h3 {
+.title h3 {
+  font-weight: 400;
   font-size: 15px;
   line-height: 18px;
 }
@@ -415,8 +504,45 @@ footer div ul {
   align-items: center;
 }
 #product div ul li a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 15px;
   background-color: #9F9F9F;
   border-radius: 10px;
   padding: 12px;
+  color: black;
+}
+
+#desc div {
+  background-color: #D6D6D6;
+  border-radius: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+#desc div h1 {
+  text-align: center;
+  border-bottom: 1px solid #9F9F9F;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 25px;
+}
+#desc div p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#desc div ul {
+  list-style: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+#desc a {
   color: black;
 }
