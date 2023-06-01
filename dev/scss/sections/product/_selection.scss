@@ -1,0 +1,56 @@
+#sawtype{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    
+    h2{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    /* Solid border */
+    hr.solid {
+    border-top: 1px solid #9F9F9F;
+    margin-top: -12px;
+    margin-bottom: 15px;
+    }
+    
+    div{
+        ul{
+            list-style: none;
+            margin-bottom: 12px;
+            li{
+                button{
+                    background-color: transparent;
+                    border-radius: 10px;
+                    border-color: transparent;
+                }
+                button:hover{
+                    filter: brightness(80%);
+                    transition: filter 0.3s ease;
+                    background-color: #FFFF;
+                    transition: background-color 0.3s ease;
+                }
+                img{
+                    width: 268px;
+                    height: 133px;
+                }
+                a{
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #000000;
+                }
+                #price{
+                    font-size: 15px;
+                    line-height: 18px;
+                }
+                #sawdesc{
+                    font-size: 12px;
+                    line-height: 15px;
+                }
+            }
+        }
+    }
+}

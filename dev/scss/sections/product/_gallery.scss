@@ -14,31 +14,51 @@
 
 #herogallery{
     ul{
+        padding-left: 37px;
+        padding-right: 37px;
         list-style: none;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-area: 
-        "g1 g1 g1 g1"
-        "g2 g2 g3 g3"
-        "g4 g4 g4 g4"
-        ". g5 g5 ."
-        }  
+        gap: 5px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "g2 g2"
+        "g3 g1"
+        "g4 g4";
+        }
 
-        #g1{
+        li{
+            img{
+                width: 100%;
+            }
+        }
+
+        .g1{
             grid-area: g1;
+            background-image: url(../img/gallery/gallery1.jpg);
+            background-size: cover;
+            background-position: center;
         }
-        #g2{
+
+        .g2{
             grid-area: g2;
+            background-image: url(../img/gallery/gallery2.jpg);
+            background-size: cover;
+            background-position: center;
         }
-        #g3{
+        .g3{
             grid-area: g3;
+            background-image: url(../img/gallery/gallery3.jpg);
+            background-size: cover;
+            background-position: center;
         }
-        #g4{
+
+        .g4{
             grid-area: g4;
+            background-image: url(../img/gallery/gallery4.jpg);
+            background-size: cover;
+            background-position: center;
         }
-        #g5{
-            grid-area: g5;
-        }
+        
 }
    
 

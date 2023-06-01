@@ -327,13 +327,14 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 .productimg {
   width: 270px;
   height: 109.38px;
-}
-
-.largeimage {
-  width: 100%;
 }
 
 /* =============
@@ -395,6 +396,7 @@ nav ul li i {
 ============= */
 footer {
   border-top: 1px solid #9F9F9F;
+  padding-bottom: 10px;
 }
 footer div ul {
   list-style: none;
@@ -414,6 +416,56 @@ footer div ul li img {
   width: 60px;
 }
 
+#sawtype {
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  /* Solid border */
+}
+#sawtype h2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+#sawtype hr.solid {
+  border-top: 1px solid #9F9F9F;
+  margin-top: -12px;
+  margin-bottom: 15px;
+}
+#sawtype div ul {
+  list-style: none;
+  margin-bottom: 12px;
+}
+#sawtype div ul li button {
+  background-color: transparent;
+  border-radius: 10px;
+  border-color: transparent;
+}
+#sawtype div ul li button:hover {
+  filter: brightness(80%);
+  transition: filter 0.3s ease;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+#sawtype div ul li img {
+  width: 268px;
+  height: 133px;
+}
+#sawtype div ul li a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+#sawtype div ul li #price {
+  font-size: 15px;
+  line-height: 18px;
+}
+#sawtype div ul li #sawdesc {
+  font-size: 12px;
+  line-height: 15px;
+}
+
 #mainheader {
   text-align: center;
 }
@@ -429,27 +481,101 @@ footer div ul li img {
 }
 
 #herogallery ul {
+  padding-left: 37px;
+  padding-right: 37px;
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-area: "g1 g1 g1 g1" "g2 g2 g3 g3" "g4 g4 g4 g4" ". g5 g5 .";
+  gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "g2 g2" "g3 g1" "g4 g4";
 }
-#herogallery #g1 {
+#herogallery li img {
+  width: 100%;
+}
+#herogallery .g1 {
   grid-area: g1;
+  background-image: url(../img/gallery/gallery1.jpg);
+  background-size: cover;
+  background-position: center;
 }
-#herogallery #g2 {
+#herogallery .g2 {
   grid-area: g2;
+  background-image: url(../img/gallery/gallery2.jpg);
+  background-size: cover;
+  background-position: center;
 }
-#herogallery #g3 {
+#herogallery .g3 {
   grid-area: g3;
+  background-image: url(../img/gallery/gallery3.jpg);
+  background-size: cover;
+  background-position: center;
 }
-#herogallery #g4 {
+#herogallery .g4 {
   grid-area: g4;
-}
-#herogallery #g5 {
-  grid-area: g5;
+  background-image: url(../img/gallery/gallery4.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
+#customization {
+  margin-left: 30px;
+  margin-right: 30px;
+  /* Solid border */
+}
+#customization h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+#customization hr.solid {
+  border-top: 1px solid #9F9F9F;
+  margin-top: -12px;
+  margin-bottom: 15px;
+}
+#customization div ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+#customization div li button {
+  border-style: none;
+  background-color: transparent;
+}
+#customization div li button:hover {
+  filter: brightness(80%);
+  background-color: white;
+}
+#customization div li img {
+  width: 153px;
+  height: 98px;
+}
+#customization div li a {
+  font-size: 18px;
+  line-height: 22px;
+  color: black;
+}
+
+section .btnlayout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+section .button {
+  background-color: #9F9F9F;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 5px 2px;
+  border-radius: 8px;
+}
 #description {
   background: #D6D6D6;
   border-radius: 10px;
@@ -463,7 +589,7 @@ footer div ul li img {
   list-style: none;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 #description #bottom {
   padding-left: 20px;
@@ -477,9 +603,9 @@ footer div ul li img {
 #back ul {
   list-style: none;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
+
 .title {
   text-align: center;
 }

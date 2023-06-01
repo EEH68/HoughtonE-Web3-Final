@@ -1,0 +1,29 @@
+
+section{
+    .btnlayout {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px;
+      }
+      
+      .button {
+        background-color: #9F9F9F;
+        border: none;
+        color: black;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        // display: inline-block;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        margin: 5px 2px;
+        border-radius: 8px;
+      }
+      
+      .button:hover {
+        // background-color: #777777;
+      }
+}

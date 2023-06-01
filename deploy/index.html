@@ -34,92 +34,113 @@
     <section id="herogallery">
         <div>
             <ul>
-                <li><img src="img/Gallery/gallery1.jpg" alt="gallery1" class="largeimage" id="g1"></li>
-                <li><img src="img/Gallery/gallery2.jpg" alt="gallery2" class="largeimage" id="g2"></li>
-                <li><img src="img/Gallery/gallery3.jpg" alt="gallery3" class="largeimage" id="g3"></li>
-                <li><img src="img/Gallery/gallery4.jpg" alt="gallery4" class="largeimage" id="g4"></li>
-                <li><img src="img/Gallery/gallery5.jpg" alt="gallery5" class="largeimage" id="g5"></li>
+                <li class="g1">
+                    <img src="img/Gallery/gallery1.jpg" alt="gallery1">
+                </li>
+                <li class="g2">
+                    <img src="img/Gallery/gallery2.jpg" alt="gallery2">
+                </li>
+                <li class="g3">
+                    <img src="img/Gallery/gallery3.jpg" alt="gallery3">
+                </li>
+                <li class="g4">
+                    <img src="img/Gallery/gallery4.jpg" alt="gallery4">
+                </li>
             </ul>
         </div>
     </section>
 
     <section id="sawtype">
             <h2>Select Saw Type</h2>
+            <hr class="solid">
             <div>
                 <ul>
                     <li>
-                        <img src="img/Select_Saw/Dovetail_Saw.jpg" alt="Dovetail-Saw">
-                        <aside>
-                            <a href="#">Dovetail Saws</a>
-                            <p>$175</p>
-                            <p>The dovetail saw is used to cut joints in drawer runners, dividers, and stretchers. They are well balanced, maneuverable, and scaled for smaller work then a tenon saw.</p>
-                        </aside>
+                        <button>
+                            <img src="img/Select_Saw/Dovetail_Saw.jpg" alt="Dovetail-Saw">
+                            <aside>
+                                <a href="#">Dovetail Saws</a>
+                                <p id="price">$175</p>
+                                <p id="sawdesc">The dovetail saw is used to cut joints in drawer runners, dividers, and stretchers. They are well balanced, maneuverable, and scaled for smaller work then a tenon saw.</p>
+                            </aside>
+                        </button>
                     </li>
     
                     <li>
-                        <img src="img/Select_Saw/Tenon_Saw.jpg" alt="Tenon-Saw">
-                        <aside>
-                            <a href="#">Tenon Saws</a>
-                            <p>$175</p>
-                            <p>A tenon saw is a large backsaw used for making deep, accurate cuts in furniture joinery. It should make straight, fast cuts without binding.</p>
-                        </aside>
+                        <button>
+                            <img src="img/Select_Saw/Tenon_Saw.jpg" alt="Tenon-Saw">
+                            <aside>
+                                <a href="#">Tenon Saws</a>
+                                <p id="price">$175</p>
+                                <p id="sawdesc">A tenon saw is a large backsaw used for making deep, accurate cuts in furniture joinery. It should make straight, fast cuts without binding.</p>
+                            </aside>
+                        </button>
                     </li>
                     
                     <li>
-                        <img src="img/Select_Saw/Carcass_Saw.jpg" alt="Carcass-Saws">
-                        <aside>
-                            <a href="#">Carcass Saws</a>
-                            <p>$175</p>
-                            <p>The carcass saw is used for precise cuts across the grain, cutting tenon shoulders, and defining the edges of a dado. The ideal compliment to the dovetail saw.</p>
-                        </aside>
+                        <button>
+                            <img src="img/Select_Saw/Carcass_Saw.jpg" alt="Carcass-Saws">
+                            <aside>
+                                <a href="#">Carcass Saws</a>
+                                <p id="price">$175</p>
+                                <p id="sawdesc">The carcass saw is used for precise cuts across the grain, cutting tenon shoulders, and defining the edges of a dado. The ideal compliment to the dovetail saw.</p>
+                            </aside>
+                        </button>
                     </li>
                 </ul>
             </div>
         </section>
 
-    <section id="sawheader">
-            <p>Exceptionally accurate, beautiful, and perfect for whatever project you have. Every Lie-Nielsen saw has been precision set, filed, and test cut in hardwood before it leaves the shop.</p>  
-    </section>
-    
-    <section>
-            <h2>Select Saw Blade</h2>
-        <div>
-            <ul>
-                <li>
-                    <img src="img/Customize/Dovetail_Tapered.png" alt="Tapered">
-                    <a href="#">Tapered</a>
-                </li>
-                <li>
-                    <img src="img/Customize/Dovetail_NonTapered.png" alt="Non-Tapered">
-                    <a href="#">Non Tapered</a>
-                </li>
-            </ul>
-        </div>
-    </section>
-    
-        <section>
-                <h2>Select Handle Type</h2>
+    <section id="customization">
+        <h2>Select Saw Blade</h2>
+        <hr class="solid">
             <div>
                 <ul>
                     <li>
-                        <img src="img/Customize/Dovetail_Cherry.png" alt="Cherry">
-                        <a href="#">Cherry</a>
+                        <button>
+                            <img src="img/Customize/Dovetail_Tapered.png" alt="Tapered">
+                            <a href="#">Tapered</a>
+                        </button>
                     </li>
                     <li>
-                        <img src="img/Customize/Dovetail_Maple.png" alt="Maple">
-                        <a href="#">Maple</a>
+                        <button>
+                            <img src="img/Customize/Dovetail_NonTapered.png" alt="Non-Tapered">
+                            <a href="#">Non Tapered</a>
+                        </button>
                     </li>
                 </ul>
             </div>
-        </section>
-        
-    
-    
+        <h2>Select Handle Type</h2>
+        <hr class="solid">
+            <div>
+                <div>
+                    <ul>
+                        <li>
+                            <button>
+                                <img src="img/Customize/Dovetail_Cherry.png" alt="Cherry">
+                                <a href="#">Cherry</a>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <img src="img/Customize/Dovetail_Maple.png" alt="Maple">
+                                <a href="#">Maple</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </section>
 
     <section>
-        <a href="checkout.html">Confirm Selection</a>
-        <button>Reset Selection</button>
+        <div class="btnlayout">
+            <a href="checkout.html" class="button">Confirm Selection</a>
+            <a href="index.html" class="button">Reset Selection</a>
+          </div>
     </section>
+    
+      
+    
     
     <footer>
         <div>
