@@ -1,26 +1,33 @@
 /* =============
     Footer
 ============= */
+
 footer{
     border-top: 1px solid #9F9F9F;
     padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     div{
         ul{
             list-style: none;
+            align-items: center;
             display: flex;
-            align-content: center;
-            gap: 10px;
+            justify-content: space-between;
             li{
-                justify-content: center;
+                img{
+                    width: 60px;
+                }
                 a{
                     font-weight: 700;
                     font-size: 8px;
                     line-height: 10px;
+                    text-decoration: none;
+                    color: black;
                 }
-                img{
-                    width: 60px;
+                a:hover{
+                    text-decoration: underline;
                 }
-                    
             }
         }
     }

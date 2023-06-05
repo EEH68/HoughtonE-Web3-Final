@@ -1,26 +1,27 @@
 /* =============
     Header
 ============= */
+
 nav{
     background-image: url(../img/global/Nav_Image.jpg);
-    padding: 10px;
     background-size: cover;
     background-position: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
-    ul{
-        list-style: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        li{
-            img{
-                width: 200px;
-            }
-            i{
-                color: white;
-                font-size: 36px;
-                // margin-left: 40px;
-            }
-        }
-    }
-}
+    .navlogo {
+        display: inline-block;
+        width: 165px;
+        height: 65px;
+        margin-left: 60px;
+      }
+
+      i{
+        float: right;
+        color: white;
+        font-size: 32px;
+        margin-top: 15px;
+        margin-right: 18px;
+      }
+  }

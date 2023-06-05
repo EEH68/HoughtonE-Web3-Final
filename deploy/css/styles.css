@@ -373,22 +373,24 @@ textarea {
 ============= */
 nav {
   background-image: url(../img/global/Nav_Image.jpg);
-  padding: 10px;
   background-size: cover;
   background-position: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-nav ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+nav .navlogo {
+  display: inline-block;
+  width: 165px;
+  height: 65px;
+  margin-left: 60px;
 }
-nav ul li img {
-  width: 200px;
-}
-nav ul li i {
+nav i {
+  float: right;
   color: white;
-  font-size: 36px;
+  font-size: 32px;
+  margin-top: 15px;
+  margin-right: 18px;
 }
 
 /* =============
@@ -397,23 +399,28 @@ nav ul li i {
 footer {
   border-top: 1px solid #9F9F9F;
   padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 footer div ul {
   list-style: none;
+  align-items: center;
   display: flex;
-  align-content: center;
-  gap: 10px;
+  justify-content: space-between;
 }
-footer div ul li {
-  justify-content: center;
+footer div ul li img {
+  width: 60px;
 }
 footer div ul li a {
   font-weight: 700;
   font-size: 8px;
   line-height: 10px;
+  text-decoration: none;
+  color: black;
 }
-footer div ul li img {
-  width: 60px;
+footer div ul li a:hover {
+  text-decoration: underline;
 }
 
 #sawtype {
@@ -576,6 +583,11 @@ section .button {
   margin: 5px 2px;
   border-radius: 8px;
 }
+section .button:hover {
+  background-color: #595959;
+  color: white;
+}
+
 #description {
   background: #D6D6D6;
   border-radius: 10px;
@@ -592,7 +604,7 @@ section .button {
   padding-top: 10px;
 }
 #description #bottom {
-  padding-left: 20px;
+  padding-left: 30px;
   padding-right: 20px;
   padding-bottom: 10px;
 }
@@ -601,9 +613,14 @@ section .button {
 }
 
 #back ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
+  text-align: center;
+}
+#back ul li {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
 }
 
 .title {
@@ -620,23 +637,18 @@ section .button {
   line-height: 18px;
 }
 
+#product {
+  margin-left: 60px;
+  margin-right: 60px;
+}
 #product div {
   text-align: center;
 }
 #product div ul {
-  justify-content: center;
+  justify-content: space-between;
   list-style: none;
   display: flex;
   align-items: center;
-}
-#product div ul li a {
-  text-decoration: none;
-  font-size: 12px;
-  line-height: 15px;
-  background-color: #9F9F9F;
-  border-radius: 10px;
-  padding: 12px;
-  color: black;
 }
 
 #desc div {
@@ -646,7 +658,6 @@ section .button {
   margin-right: 60px;
 }
 #desc div h1 {
-  text-align: center;
   border-bottom: 1px solid #9F9F9F;
   font-weight: 400;
   font-size: 20px;
@@ -669,6 +680,12 @@ section .button {
   padding-right: 20px;
   padding-bottom: 20px;
 }
-#desc a {
+
+#back {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#back a {
   color: black;
 }
