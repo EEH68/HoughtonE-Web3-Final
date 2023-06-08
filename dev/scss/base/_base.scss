@@ -9,6 +9,10 @@ ul{
 .productimg{
     width: 270px;
     height: 109.38px;
+    @include md{
+        width: 360px;
+        height: auto;
+    }
     // width: 100%;
 }
 

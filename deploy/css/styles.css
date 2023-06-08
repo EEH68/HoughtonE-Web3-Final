@@ -336,6 +336,12 @@ ul {
   width: 270px;
   height: 109.38px;
 }
+@media (min-width: 768px) {
+  .productimg {
+    width: 360px;
+    height: auto;
+  }
+}
 
 /* =============
     Typography
@@ -385,12 +391,25 @@ nav .navlogo {
   height: 65px;
   margin-left: 60px;
 }
+@media (min-width: 768px) {
+  nav .navlogo {
+    width: 180px;
+    height: 80px;
+  }
+}
 nav i {
   float: right;
   color: white;
   font-size: 32px;
   margin-top: 15px;
   margin-right: 18px;
+}
+@media (min-width: 768px) {
+  nav i {
+    font-size: 34px;
+    margin-top: 25px;
+    margin-right: 35px;
+  }
 }
 
 /* =============
@@ -412,12 +431,27 @@ footer div ul {
 footer div ul li img {
   width: 60px;
 }
+@media (min-width: 768px) {
+  footer div ul li img {
+    width: 80px;
+  }
+}
 footer div ul li a {
   font-weight: 700;
   font-size: 8px;
   line-height: 10px;
   text-decoration: none;
   color: black;
+}
+@media (min-width: 768px) {
+  footer div ul li a {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) {
+  footer div ul li i {
+    font-size: 18px;
+  }
 }
 footer div ul li a:hover {
   text-decoration: underline;
@@ -429,10 +463,21 @@ footer div ul li a:hover {
   text-align: center;
   /* Solid border */
 }
+@media (min-width: 768px) {
+  #sawtype {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+}
 #sawtype h2 {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+}
+@media (min-width: 768px) {
+  #sawtype h2 {
+    font-size: 26px;
+  }
 }
 #sawtype hr.solid {
   border-top: 1px solid #9F9F9F;
@@ -450,9 +495,11 @@ footer div ul li a:hover {
 }
 #sawtype div ul li button:hover {
   filter: brightness(80%);
-  transition: filter 0.3s ease;
   background-color: white;
-  transition: background-color 0.3s ease;
+}
+#sawtype div ul li button:active {
+  filter: brightness(50%);
+  background-color: white;
 }
 #sawtype div ul li img {
   width: 268px;
@@ -464,13 +511,28 @@ footer div ul li a:hover {
   line-height: 22px;
   color: #000000;
 }
+@media (min-width: 768px) {
+  #sawtype div ul li a {
+    font-size: 20px;
+  }
+}
 #sawtype div ul li #price {
   font-size: 15px;
   line-height: 18px;
 }
+@media (min-width: 768px) {
+  #sawtype div ul li #price {
+    font-size: 18px;
+  }
+}
 #sawtype div ul li #sawdesc {
   font-size: 12px;
   line-height: 15px;
+}
+@media (min-width: 768px) {
+  #sawtype div ul li #sawdesc {
+    font-size: 14px;
+  }
 }
 
 #mainheader {
@@ -480,11 +542,24 @@ footer div ul li a:hover {
   font-weight: 400;
   font-size: 30px;
 }
+@media (min-width: 768px) {
+  #mainheader h1 {
+    font-size: 36px;
+  }
+}
 #mainheader p {
   font-size: 14px;
   line-height: 17px;
   margin-left: 30px;
   margin-right: 30px;
+}
+@media (min-width: 768px) {
+  #mainheader p {
+    font-size: 18px;
+    margin-left: 90px;
+    margin-right: 90px;
+    line-height: 20px;
+  }
 }
 
 #herogallery ul {
@@ -495,6 +570,14 @@ footer div ul li a:hover {
   gap: 5px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas: "g2 g2" "g3 g1" "g4 g4";
+}
+@media (min-width: 768px) {
+  #herogallery ul {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "g2 g2" "g4 g4" "g1 g3";
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
 #herogallery li img {
   width: 100%;
@@ -529,11 +612,27 @@ footer div ul li a:hover {
   margin-right: 30px;
   /* Solid border */
 }
+@media (min-width: 768px) {
+  #customization {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 768px) {
+  #customization {
+    margin-left: 95px;
+    margin-right: 95px;
+  }
+}
 #customization h2 {
   text-align: center;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+}
+@media (min-width: 768px) {
+  #customization h2 {
+    font-size: 26px;
+  }
 }
 #customization hr.solid {
   border-top: 1px solid #9F9F9F;
@@ -543,7 +642,8 @@ footer div ul li a:hover {
 #customization div ul {
   list-style: none;
   display: grid;
-  grid-template-columns: 50% auto;
+  grid-template-columns: 50% 50%;
+  text-align: center;
 }
 #customization div li button {
   border-style: none;
@@ -553,24 +653,35 @@ footer div ul li a:hover {
   filter: brightness(80%);
   background-color: white;
 }
+#customization div li button:active {
+  filter: brightness(50%);
+  background-color: white;
+}
 #customization div li img {
   width: 153px;
   height: 98px;
 }
 #customization div li a {
+  display: inline-block;
+  width: 100%;
   font-size: 18px;
   line-height: 22px;
   color: black;
 }
+@media (min-width: 768px) {
+  #customization div li a {
+    font-size: 20px;
+  }
+}
 
-section .btnlayout {
+#bottombtns .btnlayout {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 20px 0px;
 }
-section .button {
+#bottombtns .button {
   background-color: #9F9F9F;
   border: none;
   color: black;
@@ -583,7 +694,12 @@ section .button {
   margin: 5px 2px;
   border-radius: 8px;
 }
-section .button:hover {
+@media (min-width: 768px) {
+  #bottombtns .button {
+    font-size: 20px;
+  }
+}
+#bottombtns .button:hover {
   background-color: #595959;
   color: white;
 }
@@ -596,6 +712,14 @@ section .button:hover {
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
+}
+@media (min-width: 768px) {
+  #description {
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 16px;
+    line-height: normal;
+  }
 }
 #description #top ul {
   list-style: none;
@@ -611,6 +735,11 @@ section .button:hover {
 #description #bottom li {
   padding-bottom: 10px;
 }
+@media (min-width: 768px) {
+  #description #bottom li {
+    padding-bottom: 30px;
+  }
+}
 
 #back ul {
   text-align: center;
@@ -622,6 +751,11 @@ section .button:hover {
   font-size: 15px;
   line-height: 18px;
 }
+@media (min-width: 768px) {
+  #back ul li {
+    font-size: 18px;
+  }
+}
 
 .title {
   text-align: center;
@@ -631,24 +765,73 @@ section .button:hover {
   line-height: 34px;
   font-weight: 400;
 }
+@media (min-width: 768px) {
+  .title h1 {
+    font-size: 24px;
+  }
+}
 .title h3 {
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
+}
+@media (min-width: 768px) {
+  .title h3 {
+    font-size: 18px;
+  }
 }
 
 #product {
   margin-left: 60px;
   margin-right: 60px;
 }
+@media (min-width: 768px) {
+  #product {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
 #product div {
   text-align: center;
 }
 #product div ul {
-  justify-content: space-between;
   list-style: none;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+#product div ul .button {
+  background-color: #9F9F9F;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 5px 2px;
+  border-radius: 8px;
+}
+@media (min-width: 768px) {
+  #product div ul .button {
+    font-size: 20px;
+  }
+}
+#product div ul .button:hover {
+  background-color: #595959;
+  color: white;
+}
+@media (min-width: 768px) {
+  #product div ul {
+    justify-content: center;
+    gap: 20px;
+  }
+  #product div ul img {
+    width: 70px;
+    height: auto;
+  }
 }
 
 #desc div {
@@ -657,6 +840,12 @@ section .button:hover {
   margin-left: 60px;
   margin-right: 60px;
 }
+@media (min-width: 768px) {
+  #desc div {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
 #desc div h1 {
   border-bottom: 1px solid #9F9F9F;
   font-weight: 400;
@@ -664,12 +853,23 @@ section .button:hover {
   line-height: 24px;
   padding: 25px;
 }
+@media (min-width: 768px) {
+  #desc div h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+}
 #desc div p {
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
   padding-left: 20px;
   padding-right: 20px;
+}
+@media (min-width: 768px) {
+  #desc div p {
+    font-size: 14px;
+  }
 }
 #desc div ul {
   list-style: none;
@@ -680,6 +880,11 @@ section .button:hover {
   padding-right: 20px;
   padding-bottom: 20px;
 }
+@media (min-width: 768px) {
+  #desc div ul {
+    font-size: 14px;
+  }
+}
 
 #back {
   text-align: center;
@@ -688,4 +893,9 @@ section .button:hover {
 }
 #back a {
   color: black;
+}
+@media (min-width: 768px) {
+  #back a {
+    font-size: 16px;
+  }
 }

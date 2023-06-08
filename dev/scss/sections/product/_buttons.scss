@@ -1,5 +1,5 @@
 
-section{
+#bottombtns{
     .btnlayout {
         display: flex;
         flex-direction: column;
@@ -21,6 +21,9 @@ section{
         line-height: 18px;
         margin: 5px 2px;
         border-radius: 8px;
+        @include md{
+          font-size: 20px;
+        }
       }
       
       .button:hover {
