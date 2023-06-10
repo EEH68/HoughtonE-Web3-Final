@@ -6,6 +6,9 @@
         @include md{
             font-size: 36px;
         }
+        @include lg{
+            font-size: 42px;
+        }
     }
     p{
         font-size: 14px;
@@ -17,6 +20,12 @@
             margin-left: 90px;
             margin-right: 90px;
             line-height: 20px;
+            @include lg{
+                font-size: 24px;
+                line-height: 24px;
+                margin-left: 200px;
+                margin-right: 200px;
+            }
         }
     }
 }
@@ -43,6 +52,16 @@
 
             padding-left: 100px;
             padding-right: 100px;
+        }
+
+        @include lg{
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-areas: 
+            "g2 g2 g4 g4"
+            ". g1 g3 .";
+
+            padding-left: 200px;
+            padding-right: 200px;
         }
         }
 

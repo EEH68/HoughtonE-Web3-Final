@@ -342,6 +342,12 @@ ul {
     height: auto;
   }
 }
+@media (min-width: 1024px) {
+  .productimg {
+    width: 450px;
+    height: auto;
+  }
+}
 
 /* =============
     Typography
@@ -397,6 +403,15 @@ nav .navlogo {
     height: 80px;
   }
 }
+@media (min-width: 1024px) {
+  nav .navlogo {
+    width: 250px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 90px;
+  }
+}
 nav i {
   float: right;
   color: white;
@@ -411,7 +426,6 @@ nav i {
     margin-right: 35px;
   }
 }
-
 /* =============
     Footer
 ============= */
@@ -422,6 +436,12 @@ footer {
   padding-left: 30px;
   padding-right: 30px;
 }
+@media (min-width: 768px) {
+  footer {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
 footer div ul {
   list-style: none;
   align-items: center;
@@ -430,10 +450,18 @@ footer div ul {
 }
 footer div ul li img {
   width: 60px;
+  height: auto;
 }
 @media (min-width: 768px) {
   footer div ul li img {
     width: 80px;
+    height: auto;
+  }
+}
+@media (min-width: 1024px) {
+  footer div ul li img {
+    width: 100px;
+    height: auto;
   }
 }
 footer div ul li a {
@@ -445,12 +473,22 @@ footer div ul li a {
 }
 @media (min-width: 768px) {
   footer div ul li a {
-    font-size: 12px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  footer div ul li a {
+    font-size: 16px;
   }
 }
 @media (min-width: 768px) {
   footer div ul li i {
-    font-size: 18px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  footer div ul li i {
+    font-size: 22px;
   }
 }
 footer div ul li a:hover {
@@ -469,6 +507,12 @@ footer div ul li a:hover {
     margin-right: 90px;
   }
 }
+@media (min-width: 1024px) {
+  #sawtype {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
 #sawtype h2 {
   font-weight: 400;
   font-size: 20px;
@@ -477,6 +521,11 @@ footer div ul li a:hover {
 @media (min-width: 768px) {
   #sawtype h2 {
     font-size: 26px;
+  }
+}
+@media (min-width: 1024px) {
+  #sawtype h2 {
+    font-size: 30px;
   }
 }
 #sawtype hr.solid {
@@ -516,6 +565,11 @@ footer div ul li a:hover {
     font-size: 20px;
   }
 }
+@media (min-width: 1024px) {
+  #sawtype div ul li a {
+    font-size: 24px;
+  }
+}
 #sawtype div ul li #price {
   font-size: 15px;
   line-height: 18px;
@@ -525,6 +579,11 @@ footer div ul li a:hover {
     font-size: 18px;
   }
 }
+@media (min-width: 1024px) {
+  #sawtype div ul li #price {
+    font-size: 22px;
+  }
+}
 #sawtype div ul li #sawdesc {
   font-size: 12px;
   line-height: 15px;
@@ -532,6 +591,12 @@ footer div ul li a:hover {
 @media (min-width: 768px) {
   #sawtype div ul li #sawdesc {
     font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  #sawtype div ul li #sawdesc {
+    font-size: 18px;
+    line-height: 20px;
   }
 }
 
@@ -547,6 +612,11 @@ footer div ul li a:hover {
     font-size: 36px;
   }
 }
+@media (min-width: 1024px) {
+  #mainheader h1 {
+    font-size: 42px;
+  }
+}
 #mainheader p {
   font-size: 14px;
   line-height: 17px;
@@ -559,6 +629,14 @@ footer div ul li a:hover {
     margin-left: 90px;
     margin-right: 90px;
     line-height: 20px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  #mainheader p {
+    font-size: 24px;
+    line-height: 24px;
+    margin-left: 200px;
+    margin-right: 200px;
   }
 }
 
@@ -577,6 +655,14 @@ footer div ul li a:hover {
     grid-template-areas: "g2 g2" "g4 g4" "g1 g3";
     padding-left: 100px;
     padding-right: 100px;
+  }
+}
+@media (min-width: 1024px) {
+  #herogallery ul {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "g2 g2 g4 g4" ". g1 g3 .";
+    padding-left: 200px;
+    padding-right: 200px;
   }
 }
 #herogallery li img {
@@ -615,12 +701,14 @@ footer div ul li a:hover {
 @media (min-width: 768px) {
   #customization {
     margin-bottom: 20px;
-  }
-}
-@media (min-width: 768px) {
-  #customization {
     margin-left: 95px;
     margin-right: 95px;
+  }
+}
+@media (min-width: 1024px) {
+  #customization {
+    margin-left: 200px;
+    margin-right: 200px;
   }
 }
 #customization h2 {
@@ -632,6 +720,11 @@ footer div ul li a:hover {
 @media (min-width: 768px) {
   #customization h2 {
     font-size: 26px;
+  }
+}
+@media (min-width: 1024px) {
+  #customization h2 {
+    font-size: 30px;
   }
 }
 #customization hr.solid {
@@ -661,6 +754,12 @@ footer div ul li a:hover {
   width: 153px;
   height: 98px;
 }
+@media (min-width: 1024px) {
+  #customization div li img {
+    width: 200px;
+    height: auto;
+  }
+}
 #customization div li a {
   display: inline-block;
   width: 100%;
@@ -671,6 +770,11 @@ footer div ul li a:hover {
 @media (min-width: 768px) {
   #customization div li a {
     font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  #customization div li a {
+    font-size: 22px;
   }
 }
 
@@ -699,6 +803,11 @@ footer div ul li a:hover {
     font-size: 20px;
   }
 }
+@media (min-width: 1024px) {
+  #bottombtns .button {
+    font-size: 22px;
+  }
+}
 #bottombtns .button:hover {
   background-color: #595959;
   color: white;
@@ -719,6 +828,13 @@ footer div ul li a:hover {
     margin-right: 90px;
     font-size: 16px;
     line-height: normal;
+  }
+}
+@media (min-width: 1024px) {
+  #description {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
   }
 }
 #description #top ul {
@@ -756,6 +872,14 @@ footer div ul li a:hover {
     font-size: 18px;
   }
 }
+@media (min-width: 1024px) {
+  #back ul li {
+    font-size: 22px;
+  }
+  #back ul li a {
+    font-size: 20px;
+  }
+}
 
 .title {
   text-align: center;
@@ -770,6 +894,11 @@ footer div ul li a:hover {
     font-size: 24px;
   }
 }
+@media (min-width: 1024px) {
+  .title h1 {
+    font-size: 32px;
+  }
+}
 .title h3 {
   font-weight: 400;
   font-size: 15px;
@@ -778,6 +907,11 @@ footer div ul li a:hover {
 @media (min-width: 768px) {
   .title h3 {
     font-size: 18px;
+  }
+}
+@media (min-width: 1024px) {
+  .title h3 {
+    font-size: 24px;
   }
 }
 
@@ -819,6 +953,12 @@ footer div ul li a:hover {
     font-size: 20px;
   }
 }
+@media (min-width: 1024px) {
+  #product div ul .button {
+    font-size: 25px;
+    padding: 15px 25px;
+  }
+}
 #product div ul .button:hover {
   background-color: #595959;
   color: white;
@@ -830,6 +970,12 @@ footer div ul li a:hover {
   }
   #product div ul img {
     width: 70px;
+    height: auto;
+  }
+}
+@media (min-width: 1024px) {
+  #product div ul img {
+    width: 90px;
     height: auto;
   }
 }
@@ -846,6 +992,12 @@ footer div ul li a:hover {
     margin-right: 200px;
   }
 }
+@media (min-width: 1024px) {
+  #desc div {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+}
 #desc div h1 {
   border-bottom: 1px solid #9F9F9F;
   font-weight: 400;
@@ -859,6 +1011,11 @@ footer div ul li a:hover {
     text-align: center;
   }
 }
+@media (min-width: 1024px) {
+  #desc div h1 {
+    font-size: 26px;
+  }
+}
 #desc div p {
   font-weight: 400;
   font-size: 12px;
@@ -869,6 +1026,11 @@ footer div ul li a:hover {
 @media (min-width: 768px) {
   #desc div p {
     font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  #desc div p {
+    font-size: 18px;
   }
 }
 #desc div ul {
@@ -885,6 +1047,12 @@ footer div ul li a:hover {
     font-size: 14px;
   }
 }
+@media (min-width: 1024px) {
+  #desc div ul {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
 
 #back {
   text-align: center;
@@ -897,5 +1065,13 @@ footer div ul li a:hover {
 @media (min-width: 768px) {
   #back a {
     font-size: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  #back {
+    padding-bottom: 20px;
+  }
+  #back a {
+    font-size: 20px;
   }
 }

@@ -9,6 +9,10 @@
             margin-left: 200px;
             margin-right: 200px;
         }
+        @include lg{
+            margin-left: 300px;
+            margin-right: 300px;
+        }
 
         h1{
             border-bottom: 1px solid #9F9F9F;
@@ -20,6 +24,9 @@
                 font-size: 24px;
                 text-align: center;
             }
+            @include lg{
+                font-size: 26px;
+            }
         }
 
         p{
@@ -30,6 +37,9 @@
             padding-right: 20px;
             @include md{
                 font-size: 14px;
+            }
+            @include lg{
+                font-size: 18px;
             }
         }
 
@@ -44,6 +54,10 @@
             @include md{
                 font-size: 14px;
             }
+            @include lg{
+                font-size: 18px;
+                line-height: 20px;
+            }
             
         }
     }
@@ -57,6 +71,12 @@
         color: black;
         @include md{
             font-size: 16px;
+        }
+    }
+    @include lg{
+        padding-bottom: 20px;
+        a{
+            font-size: 20px;
         }
     }
 }

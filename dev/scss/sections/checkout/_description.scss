@@ -12,6 +12,11 @@
         font-size: 16px;
         line-height: normal;
     }
+    @include lg{
+        margin-left: 200px;
+        margin-right: 200px;
+        font-size: 20px;
+    }
 
     #top{
         ul{
@@ -32,7 +37,6 @@
                 padding-bottom: 30px;
             }
         }
-
     }  
 }
 
@@ -47,6 +51,12 @@
         line-height: 18px;
         @include md{
             font-size: 18px;
+        }
+        @include lg{
+            font-size: 22px;
+            a{
+                font-size: 20px;
+            }
         }
         }
     }

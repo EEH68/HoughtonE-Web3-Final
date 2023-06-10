@@ -9,7 +9,12 @@ footer{
     padding-left: 30px;
     padding-right: 30px;
     @include md{
-        // margin-bottom: 50px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    @include lg{
+        // margin-left: 200px;
+        // margin-right: 200px;
     }
     div{
         ul{
@@ -19,9 +24,15 @@ footer{
             justify-content: space-between;
             li{
                 img{
-                    width: 60px;
+                        width: 60px;
+                        height: auto;
                     @include md{
                         width: 80px;
+                        height: auto;
+                    }
+                    @include lg{
+                        width: 100px;
+                        height: auto;
                     }
                 }
                 a{
@@ -31,12 +42,20 @@ footer{
                     text-decoration: none;
                     color: black;
                     @include md{
-                        font-size: 12px;
+                        font-size: 14px;
+                    }
+                    @include lg{
+                        font-size: 16px;
                     }
                 }
                 @include md{
                     i{
-                        font-size: 18px;
+                        font-size: 20px;
+                    }
+                }
+                @include lg{
+                    i{
+                        font-size: 22px;
                     }
                 }
 
