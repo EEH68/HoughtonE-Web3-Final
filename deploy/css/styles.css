@@ -349,6 +349,23 @@ ul {
   }
 }
 
+.navlogo {
+  width: 165px;
+  height: 65px;
+}
+@media (min-width: 768px) {
+  .navlogo {
+    width: 180px;
+    height: 80px;
+  }
+}
+@media (min-width: 1024px) {
+  .navlogo {
+    width: 266px;
+    height: auto;
+  }
+}
+
 /* =============
     Typography
 ============= */
@@ -359,6 +376,11 @@ body {
 /* =============
     Buttons
 ============= */
+button {
+  padding: 0;
+  margin: 0;
+}
+
 /* =============
     Forms
 ============= */
@@ -380,52 +402,60 @@ textarea {
 /* =============
     Navigation
 ============= */
+html {
+  scroll-behavior: smooth;
+}
+
+.show-menu {
+  display: block !important;
+}
+
+nav ul li {
+  text-align: right;
+}
+nav ul li a:link, nav ul li a:visited {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  padding: 16px 16px;
+}
+
 /* =============
     Header
 ============= */
-nav {
+header {
   background-image: url(../img/global/Nav_Image.jpg);
   background-size: cover;
   background-position: center;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "logo burger" "nav nav";
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
 }
-nav .navlogo {
-  display: inline-block;
-  width: 165px;
-  height: 65px;
-  margin-left: 60px;
+header #logo {
+  grid-area: logo;
+  display: flex;
+  align-items: center;
 }
-@media (min-width: 768px) {
-  nav .navlogo {
-    width: 180px;
-    height: 80px;
-  }
+header #burger-container {
+  grid-area: burger;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
-@media (min-width: 1024px) {
-  nav .navlogo {
-    width: 250px;
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 90px;
-  }
-}
-nav i {
-  float: right;
+header #burger-container button {
+  border: none;
+  background-color: transparent;
   color: white;
-  font-size: 32px;
-  margin-top: 15px;
-  margin-right: 18px;
+  font-size: 20px;
 }
-@media (min-width: 768px) {
-  nav i {
-    font-size: 34px;
-    margin-top: 25px;
-    margin-right: 35px;
-  }
+header nav {
+  grid-area: nav;
 }
+
 /* =============
     Footer
 ============= */
@@ -496,6 +526,7 @@ footer div ul li a:hover {
 }
 
 #sawtype {
+  scroll-margin: 10px;
   margin-left: 30px;
   margin-right: 30px;
   text-align: center;
@@ -614,7 +645,7 @@ footer div ul li a:hover {
 }
 @media (min-width: 1024px) {
   #mainheader h1 {
-    font-size: 42px;
+    font-size: 36px;
   }
 }
 #mainheader p {
@@ -633,13 +664,16 @@ footer div ul li a:hover {
 }
 @media (min-width: 768px) and (min-width: 1024px) {
   #mainheader p {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 24px;
     margin-left: 200px;
     margin-right: 200px;
   }
 }
 
+#herogallery {
+  scroll-margin: 10px;
+}
 #herogallery ul {
   padding-left: 37px;
   padding-right: 37px;
