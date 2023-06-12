@@ -410,14 +410,41 @@ html {
   display: block !important;
 }
 
+nav {
+  display: none;
+}
+@media (min-width: 1024px) {
+  nav {
+    display: block;
+  }
+}
+@media (min-width: 1024px) {
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
 nav ul li {
   text-align: right;
+}
+@media (min-width: 1024px) {
+  nav ul li {
+    margin-left: 16px;
+  }
 }
 nav ul li a:link, nav ul li a:visited {
   text-decoration: none;
   display: inline-block;
   color: black;
   padding: 16px 16px;
+}
+@media (min-width: 1024px) {
+  nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
+    text-decoration: underline;
+    color: white;
+  }
 }
 
 /* =============
@@ -435,6 +462,11 @@ header {
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
 }
+@media (min-width: 1024px) {
+  header {
+    grid-template-areas: "logo nav";
+  }
+}
 header #logo {
   grid-area: logo;
   display: flex;
@@ -445,6 +477,11 @@ header #burger-container {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+@media (min-width: 1024px) {
+  header #burger-container {
+    display: none;
+  }
 }
 header #burger-container button {
   border: none;
