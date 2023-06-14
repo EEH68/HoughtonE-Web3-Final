@@ -1,9 +1,10 @@
 #sawtype{
-    scroll-margin: 10px;
+    scroll-margin: 120px;
     margin-left: 30px;
     margin-right: 30px;
     text-align: center;
     @include md{
+        scroll-margin: 140px;
         margin-left: 90px;
         margin-right: 90px;
     }

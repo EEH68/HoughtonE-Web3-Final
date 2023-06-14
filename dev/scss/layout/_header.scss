@@ -13,7 +13,10 @@ header{
   "logo burger"
   "nav nav";
   padding: 20px;
-  // position: fixed;
+  position: fixed;
+  z-index: 1000;
+  top:0;
+  left:0;
   width: 100%;
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);

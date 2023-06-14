@@ -19,8 +19,8 @@ nav{
             list-style: none;
             display: flex;
             justify-content: flex-end;
-            align-items: center;
-            // margin-top: -100px;
+            align-items: center;      
+            margin-top: 10px;  
         }
         li{
             text-align: right;
@@ -32,11 +32,8 @@ nav{
             a:link, a:visited{
                 text-decoration: none;
                 display: inline-block;
-                color: black;
+                color: white;
                 padding: 16px 16px;
-                @include lg{
-                    // color: white;
-                }
 
                 &:hover, &:active{
                     @include lg{

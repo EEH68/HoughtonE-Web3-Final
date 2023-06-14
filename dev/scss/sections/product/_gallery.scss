@@ -1,7 +1,12 @@
 #mainheader{
-
-    // padding-top: 100px;
+    margin-top: 120px;
     text-align: center;
+    @include md{
+        margin-top: 140px;
+    }
+    @include lg{
+        margin-top: 160px;
+    }
     h1{
         font-weight: 400;
         font-size: 30px;
@@ -33,7 +38,7 @@
 }
 
 #herogallery{
-    scroll-margin: 10px;
+    scroll-margin: 140px;
     ul{
         padding-left: 37px;
         padding-right: 37px;
