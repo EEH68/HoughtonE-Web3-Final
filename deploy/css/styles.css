@@ -599,7 +599,7 @@ footer div ul li a:hover {
 }
 @media (min-width: 1024px) {
   #sawtype h2 {
-    font-size: 30px;
+    font-size: 26px;
   }
 }
 #sawtype hr.solid {
@@ -639,11 +639,6 @@ footer div ul li a:hover {
     font-size: 20px;
   }
 }
-@media (min-width: 1024px) {
-  #sawtype div ul li a {
-    font-size: 24px;
-  }
-}
 #sawtype div ul li #price {
   font-size: 15px;
   line-height: 18px;
@@ -651,11 +646,6 @@ footer div ul li a:hover {
 @media (min-width: 768px) {
   #sawtype div ul li #price {
     font-size: 18px;
-  }
-}
-@media (min-width: 1024px) {
-  #sawtype div ul li #price {
-    font-size: 22px;
   }
 }
 #sawtype div ul li #sawdesc {
@@ -692,16 +682,6 @@ footer div ul li a:hover {
   font-weight: 400;
   font-size: 30px;
 }
-@media (min-width: 768px) {
-  #mainheader h1 {
-    font-size: 36px;
-  }
-}
-@media (min-width: 1024px) {
-  #mainheader h1 {
-    font-size: 36px;
-  }
-}
 #mainheader p {
   font-size: 14px;
   line-height: 17px;
@@ -718,8 +698,7 @@ footer div ul li a:hover {
 }
 @media (min-width: 768px) and (min-width: 1024px) {
   #mainheader p {
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 20px;
     margin-left: 200px;
     margin-right: 200px;
   }
@@ -811,11 +790,6 @@ footer div ul li a:hover {
     font-size: 26px;
   }
 }
-@media (min-width: 1024px) {
-  #customization h2 {
-    font-size: 30px;
-  }
-}
 #customization hr.solid {
   border-top: 1px solid #9F9F9F;
   margin-top: -12px;
@@ -859,11 +833,6 @@ footer div ul li a:hover {
 @media (min-width: 768px) {
   #customization div li a {
     font-size: 20px;
-  }
-}
-@media (min-width: 1024px) {
-  #customization div li a {
-    font-size: 22px;
   }
 }
 
@@ -921,8 +890,8 @@ footer div ul li a:hover {
 }
 @media (min-width: 1024px) {
   #description {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 350px;
+    margin-right: 350px;
     font-size: 20px;
   }
 }
@@ -991,7 +960,7 @@ footer div ul li a:hover {
 }
 @media (min-width: 1024px) {
   .title h1 {
-    font-size: 32px;
+    font-size: 30px;
   }
 }
 .title h3 {
@@ -1006,7 +975,7 @@ footer div ul li a:hover {
 }
 @media (min-width: 1024px) {
   .title h3 {
-    font-size: 24px;
+    font-size: 18px;
   }
 }
 
@@ -1048,12 +1017,6 @@ footer div ul li a:hover {
     font-size: 20px;
   }
 }
-@media (min-width: 1024px) {
-  #product div ul .button {
-    font-size: 25px;
-    padding: 15px 25px;
-  }
-}
 #product div ul .button:hover {
   background-color: #595959;
   color: white;
@@ -1089,8 +1052,8 @@ footer div ul li a:hover {
 }
 @media (min-width: 1024px) {
   #desc div {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 350px;
+    margin-right: 350px;
   }
 }
 #desc div h1 {

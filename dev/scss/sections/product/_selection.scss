@@ -22,7 +22,7 @@
             font-size: 26px;
         }
         @include lg{
-            font-size: 30px;
+            font-size: 26px;
         }
     }
 
@@ -67,18 +67,12 @@
                     @include md{
                         font-size: 20px;
                     }
-                    @include lg{
-                        font-size: 24px;
-                    }
                 }
                 #price{
                     font-size: 15px;
                     line-height: 18px;
                     @include md{
                         font-size: 18px;
-                    }
-                    @include lg{
-                        font-size: 22px;
                     }
                 }
                 #sawdesc{
